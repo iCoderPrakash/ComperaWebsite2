@@ -3,7 +3,7 @@ import React from 'react';
 import BlogCard from './Blogs';
 
 const blogs = [
-  { id: 1, title: 'Blog Title 1', summary: 'This is a short summary of blog 1...' },
+  { id: 1, title: 'The Best Python Blogs', summary: 'Python is one of the most popular programming languages in use today. It’s become a favorite for both experienced developers and those just starting out, ....' },
   { id: 2, title: 'Blog Title 2', summary: 'This is a short summary of blog 2...' },
   { id: 3, title: 'Blog Title 3', summary: 'This is a short summary of blog 3...' },
   { id: 4, title: 'Blog Title 4', summary: 'This is a short summary of blog 4...' },

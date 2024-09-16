@@ -4,8 +4,8 @@ import { useParams } from 'react-router-dom';
 
 const blogDetails = {
   1: {
-    title: 'Blog Title 1',
-    content: 'This is the detailed content of blog 1...',
+    title: 'Python',
+    content: 'ython Programming is a content hub featuring multi-level tutorials in varying difficulty levels across several popular Python use-cases, including Machine Learning, Web Dev, Bots & AI, Finance, and Quantum Computing. The publishing strategy is tutorial-centric, but after you start a tutorial, you’ll find the technical subject to be excellently presented with ample detail and supporting evidence. The writing is not poor, just not great. Some necessary links are present, other times they are not where you’d expect to find them.',
   },
   2: {
     title: 'Blog Title 2',
