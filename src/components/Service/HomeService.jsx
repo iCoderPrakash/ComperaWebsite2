@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBookOpen, FaChartLine, FaSmile, FaUsers } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const ServiceCard = ({ icon, title, description }) => {
   return (
@@ -11,14 +12,14 @@ const ServiceCard = ({ icon, title, description }) => {
   );
 };
 
-const Services = () => {
+const HomeServices = () => {
   return (
     <>
       <div id="services" className="py-12 bg-gray-50">
         <div className="section-heading text-center mb-8">
           <h2 className=" relative service-title text-3xl font-bold text-red-900">
-         Our Services
-            </h2>
+            Our Services
+          </h2>
         </div>
         <div className="services-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
           <ServiceCard
@@ -52,9 +53,14 @@ const Services = () => {
             description="Around 95 per cent of the total students have got placement in leading corporate/ MNCs pan India and abroad."
           />
         </div>
+        <div className="flex justify-center mt-8">
+          <button className="text-white w-fit bg-gradient-to-br from-gray-700 to-black py-3 px-5 rounded-lg transition-transform duration-300 hover:scale-110">
+          <NavLink to='/service'>  Read more</NavLink>
+          </button>
+        </div>
       </div>
     </>
   );
 };
 
-export default Services;
+export default HomeServices;

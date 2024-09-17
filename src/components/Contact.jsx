@@ -33,7 +33,7 @@ const Contact = () => {
                   <input
                     type="tel"
                     className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-                    placeholder="(800) 900-200-100"
+                    placeholder="41849595265"
                   />
                 </div>
                 <div className="mb-4">
@@ -50,21 +50,21 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Information */}
+       
           <div className="w-full lg:w-1/2 px-4">
             <div className="bg-blue-600 text-white p-6 rounded-lg shadow-lg">
               <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
               <p className="mb-4">
-                <strong>Address:</strong> 360 King Street, Feasterville Trevose, PA, 19053
+                <strong>Address:</strong>MM95 Surya Vihar Colony Near Ram Leela Maidan Gorakhnath Gorakhpur-273015
               </p>
               <p className="mb-4">
-                <strong>Phone:</strong> (800) 900-200-300
+                <strong>Phone:</strong>+91-8884957389
               </p>
               <p className="mb-4">
-                <strong>Email:</strong> info@email.com
+                <strong>Email:</strong> comperainstitute@gmail.com
               </p>
               <div className="flex space-x-4">
-                {/* Social Icons (replace '#' with actual links) */}
+              
                 <a href="#" className="text-white">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2.04c-5.48 0-9.96 4.48-9.96 9.96 0 4.42 3.54 8.08 8.08 8.96v-6.34h-2.42v-2.62h2.42v-2c0-2.36 1.44-3.66 3.56-3.66 1.02 0 1.9.08 2.16.11v2.5h-1.48c-1.16 0-1.38.55-1.38 1.36v1.79h2.76l-.36 2.62h-2.4v6.34c4.54-.88 8.08-4.54 8.08-8.96 0-5.48-4.48-9.96-9.96-9.96z" />

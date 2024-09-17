@@ -50,6 +50,14 @@ const Navbar = () => {
           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-900 transition-all duration-300 group-hover:w-full"></span>
         </NavLink>
         <NavLink
+          to="/service"
+          className="relative group text-black text-xl hover:text-green-900"
+          onClick={handleNavLinkClick}
+        >
+          Services
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-900 transition-all duration-300 group-hover:w-full"></span>
+        </NavLink>
+        <NavLink
           to="/contact"
           className="relative group text-black text-xl hover:text-green-900"
           onClick={handleNavLinkClick}

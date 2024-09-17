@@ -9,9 +9,7 @@ const CardComponent = () => {
           Are you ready to learn with <span className="text-green-300">Compera</span>
         </h2>
         <p className="text-sm md:text-base mb-6">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam ut
-          distinctio natus sunt, explicabo quae tempora, sint soluta mollitia
-          temporibus dolorum.
+        At COMPERA, learning doesn’t stop when the course ends. We provide continuous support to our students, offering opportunities for advanced learning, certifications, and workshops to ensure they stay ahead in their career paths.
         </p>
         <button className="bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 rounded-full" >
        <NavLink to="/contact"> Contact us</NavLink>

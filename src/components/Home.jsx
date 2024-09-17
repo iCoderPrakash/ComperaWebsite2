@@ -1,11 +1,11 @@
 import React from "react";
 import hero from "../images/hero.png";
 import about from "../images/about.jpg";
-import Services from "./Services";
 import { NavLink } from "react-router-dom";
 import Testimonials from "./Testimonals";
-import Whyneed from "./Whyneed";
+import Whyneed from "./comperaneed/Whyneed";
 import CardComponent from "./CardComponent";
+import HomeServices from "./Service/HomeService";
 
 const Home = () => {
   return (
@@ -35,7 +35,7 @@ const Home = () => {
           />
         </div>
       </div>
-      <Services />
+      <HomeServices />
       <section className="About-section bg-gray-100 py-12">
         <div className="container mx-auto px-4 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
           <div className="text-content mb-8 lg:mb-0 lg:w-2/3">
