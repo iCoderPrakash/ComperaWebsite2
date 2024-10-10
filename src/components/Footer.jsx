@@ -63,10 +63,18 @@ const Footer = () => {
               Quick Links
             </h3>
             <ul className="space-y-2">
-              <li><NavLink to='/'>Home</NavLink></li>
-              <li><NavLink to ='/about'>About us</NavLink></li>
-              <li><NavLink to='/service'>Services</NavLink></li>
-              <li><NavLink to='/courses'>Courses</NavLink></li>
+              <li>
+                <NavLink to="/">Home</NavLink>
+              </li>
+              <li>
+                <NavLink to="/about">About us</NavLink>
+              </li>
+              <li>
+                <NavLink to="/service">Services</NavLink>
+              </li>
+              <li>
+                <NavLink to="/courses">Courses</NavLink>
+              </li>
             </ul>
           </div>
 
@@ -97,12 +105,13 @@ const Footer = () => {
 
         {/* Footer Bottom Bar */}
         <div className="border-t border-green-600 mt-8 pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-red-400">
-          <p>© 2024 COMPERA COMPUTER EDUCATIONAL SOCIETY. All Rights Reserved.
+          <p>
+            © 2024 COMPERA COMPUTER EDUCATIONAL SOCIETY. All Rights Reserved.
           </p>
           <ul className="flex space-x-6 mt-4 md:mt-0">
             <li>
               <a href="#" className="hover:text-yellow-400">
-              Designed by M24 TechSpace Private Limited
+                Designed by M24 TechSpace Private Limited
               </a>
             </li>
           </ul>

@@ -107,14 +107,21 @@ const AboutUs = () => {
               competitive IT landscape.
             </p>
             <p className="mt-4 text-lg text-gray-700 leading-relaxed">
-              <span className="block mb-2">Industry-Relevant Projects: Gain hands-on experience by working on
-              live projects from M24 TechSpace, focusing on web and mobile app
-              development.</span> <span className="block mb-2">Mentorship from Experts: Access to expert guidance
-              from M24 TechSpace professionals, ensuring students learn industry
-              best practices and latest technologies. </span> <span className="block mb-2">Internship & Placement
-              Opportunities: Exclusive internship and job opportunities for
-              top-performing students to kickstart their careers in the IT
-              industry.</span>
+              <span className="block mb-2">
+                Industry-Relevant Projects: Gain hands-on experience by working
+                on live projects from M24 TechSpace, focusing on web and mobile
+                app development.
+              </span>{" "}
+              <span className="block mb-2">
+                Mentorship from Experts: Access to expert guidance from M24
+                TechSpace professionals, ensuring students learn industry best
+                practices and latest technologies.{" "}
+              </span>{" "}
+              <span className="block mb-2">
+                Internship & Placement Opportunities: Exclusive internship and
+                job opportunities for top-performing students to kickstart their
+                careers in the IT industry.
+              </span>
             </p>
           </div>
         </div>
