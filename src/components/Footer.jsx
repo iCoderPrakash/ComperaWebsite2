@@ -50,11 +50,11 @@ const Footer = () => {
               Services
             </h3>
             <ul className="space-y-2">
-              <li>1:1 - Business Coaching</li>
-              <li>Executive Coaching</li>
-              <li>Leadership Coaching</li>
-              <li>Career Coaching</li>
-              <li>Accountability Coaching</li>
+              <li>1. Comprehensive Programming Courses</li>
+              <li>2. Advanced Web Development & Full Stack Training</li>
+              <li>3. Data Analytics & Visualization</li>
+              <li>4. NIELIT 'O' and 'A' Level Certification Courses</li>
+              <li>5. Career Guidance & Support</li>
             </ul>
           </div>
 

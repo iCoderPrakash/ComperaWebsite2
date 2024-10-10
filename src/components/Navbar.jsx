@@ -20,58 +20,52 @@ const Navbar = () => {
     <nav className="flex items-center md:justify-around justify-between p-4 bg-white border-b-4 shadow-sm sticky top-0 z-50 h-20">
       
       <div className="w-20 h-18">
-        <img className="h-full w-full object-contain" src={logo} alt="Logo" />
+        <NavLink to="/">
+          <img src={logo} alt="Logo" className="w-full h-full object-contain" />
+        </NavLink>
       </div>
 
       
       <div className="hidden md:flex space-x-8">
         <NavLink
           to="/"
-          className="relative group text-black text-xl hover:text-green-900"
+          className="relative group text-black text-xl hover:text-red-900"
           onClick={handleNavLinkClick}
         >
           Home
-          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-900 transition-all duration-300 group-hover:w-full"></span>
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-900 transition-all duration-300 group-hover:w-full"></span>
         </NavLink>
         <NavLink
           to="/about"
-          className="relative group text-black text-xl hover:text-green-900"
+          className="relative group text-black text-xl hover:text-red-900"
           onClick={handleNavLinkClick}
         >
           About Us
-          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-900 transition-all duration-300 group-hover:w-full"></span>
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-900 transition-all duration-300 group-hover:w-full"></span>
         </NavLink>
         <NavLink
           to="/courses"
-          className="relative group text-black text-xl hover:text-green-900"
+          className="relative group text-black text-xl hover:text-red-900"
           onClick={handleNavLinkClick}
         >
           Courses
-          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-900 transition-all duration-300 group-hover:w-full"></span>
-        </NavLink>
-        <NavLink
-          to="/service"
-          className="relative group text-black text-xl hover:text-green-900"
-          onClick={handleNavLinkClick}
-        >
-          Services
-          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-900 transition-all duration-300 group-hover:w-full"></span>
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-900 transition-all duration-300 group-hover:w-full"></span>
         </NavLink>
         <NavLink
           to="/contact"
-          className="relative group text-black text-xl hover:text-green-900"
+          className="relative group text-black text-xl hover:text-red-900"
           onClick={handleNavLinkClick}
         >
           Contact
-          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-900 transition-all duration-300 group-hover:w-full"></span>
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-900 transition-all duration-300 group-hover:w-full"></span>
         </NavLink>
         <NavLink
           to="/blog"
-          className="relative group text-black text-xl hover:text-green-900"
+          className="relative group text-black text-xl hover:text-red-900"
           onClick={handleNavLinkClick}
         >
           Blogs
-          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-900 transition-all duration-300 group-hover:w-full"></span>
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-900 transition-all duration-300 group-hover:w-full"></span>
         </NavLink>
       </div>
 
@@ -131,8 +125,7 @@ const Navbar = () => {
         </NavLink>
         <div className="flex space-x-4 text-black">
           <FaInstagram className="hover:text-red-900 cursor-pointer text-2xl" />
-          <FaFacebookF className="hover:text-red-900 cursor-pointer text-2xl" />
-          <FaGithub className="hover:text-red-900 cursor-pointer text-2xl" />
+         <FaFacebookF className="hover:text-red-900 cursor-pointer text-2xl" />
         </div>
       </div>
     </nav>

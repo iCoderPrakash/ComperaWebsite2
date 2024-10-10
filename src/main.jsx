@@ -3,13 +3,12 @@ import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
-import Home from './components/Home.jsx';
-import About from './components/About.jsx';
-import Contact from './components/Contact.jsx';
-import Course from './components/Course.jsx';
-import BlogList from '../src/components/blogs/BlogList.jsx';
-import BlogDetails from '../src/components/blogs/BlogDetails.jsx';
-import Services from '../src/components/Service/Services.jsx';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Contact from './pages/Contact.jsx';
+import Course from './pages/Course.jsx';
+import BlogList from '../src/pages/blogs/BlogList.jsx';
+import BlogDetails from '../src/pages/blogs/BlogDetails.jsx';
 import NeedCompera from './components/comperaneed/NeedCompera.jsx';
 
 const router =createBrowserRouter(createRoutesFromElements(
@@ -17,7 +16,6 @@ const router =createBrowserRouter(createRoutesFromElements(
     <Route path ='/' element={<Home/>}/>
     <Route path ='/about' element={<About/>}/>
     <Route path ='/courses' element={<Course/>}/>
-    <Route path='/service' element={<Services/>}/>
     <Route path ='/contact' element={<Contact/>}/>
     <Route path="/blog" element={<BlogList />} />
     <Route path="/blog/:blogId" element={<BlogDetails />} />
