@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-100 text-black py-12">
       <div className="container mx-auto px-6 md:px-12 lg:px-24">
-        <div className="flex flex-col md:flex-row justify-between">
+        <div className="flex flex-col md:flex-row justify-around">
           <div className="mb-8 md:mb-0 md:w-1/3">
             <h2 className="text-3xl font-bold text-red-600 mb-4">
               Compera Institute
