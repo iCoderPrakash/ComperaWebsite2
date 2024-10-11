@@ -53,7 +53,7 @@ const Home = () => {
         <div className="w-full text-center">
           <h1
             className="text-3xl font-bold text-white block mb-5"
-            style={{ fontFamily: "'Poppins', sans-serif" }}
+            style={{ fontFamily: "'Updock', cursive" }}
           >
             Compera Institute
           </h1>
