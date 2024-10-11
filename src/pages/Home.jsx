@@ -54,7 +54,7 @@ const Home = () => {
         className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-br h-screen from-gray-700 to-black px-6 py-12"
         ref={heroSection}
       >
-          <h1 className="text-3xl font-bold text-white text-center">Compera Institute</h1>
+          <h1 className="text-3xl font-bold text-white text-center block">Compera Institute</h1>
         <div className="text-white lg:w-1/2 space-y-4">
           <h3 className="text-xl font-medium">Welcome to Compera Institute</h3>
           <h1 className="text-4xl md:text-6xl font-bold">Learn Today,</h1>
