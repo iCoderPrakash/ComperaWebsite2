@@ -50,34 +50,30 @@ const Home = () => {
     <>
       {/* Hero Section */}
       <div
-        id="main"
-        className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-br min-h-screen from-gray-700 to-black px-6 py-12"
-        ref={heroSection}
-      >
-          <div className="">
-          <h1 className="text-3xl font-bold text-white text-center block mb-5">Compera Institute</h1>
-          </div>
-        <div className="text-white lg:w-1/2 space-y-4">
-          <h3 className="text-xl font-medium">Welcome to Compera Institute</h3>
-          <h1 className="text-4xl md:text-6xl font-bold">Learn Today,</h1>
-          <h1 className="text-4xl md:text-6xl font-bold">Lead Tomorrow</h1>
-          <p className="text-lg md:text-xl">
-            Instructor-led Offline Training program includes Java Full Stack,
-            MERN Stack, Python, O-level, A-level, and many more..
-          </p>
-          <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full mt-6 transition-colors duration-300">
-            Explore More
-          </button>
-        </div>
-
-        <div className="lg:w-1/2 lg:mt-0 flex justify-center">
-          <img
-            src={hero}
-            alt="Hero"
-            className="w-full max-w-lg object-contain"
-          />
-        </div>
-      </div>
+  id="main"
+  className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-br min-h-screen from-gray-700 to-black px-6 py-12"
+  ref={heroSection}
+>
+  <div className="w-full text-center">
+    <h1 className="text-3xl font-bold text-white block mb-5" style={{ fontFamily: "'Poppins', sans-serif" }}>
+      Compera Institute
+    </h1>
+  </div>
+  <div className="text-white lg:w-1/2 space-y-4">
+    <h3 className="text-xl font-medium">Welcome to Compera Institute</h3>
+    <h1 className="text-4xl md:text-6xl font-bold">Learn Today,</h1>
+    <h1 className="text-4xl md:text-6xl font-bold">Lead Tomorrow</h1>
+    <p className="text-lg md:text-xl">
+      Instructor-led Offline Training program includes Java Full Stack, MERN Stack, Python, O-level, A-level, and many more..
+    </p>
+    <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full mt-6 transition-colors duration-300">
+      Explore More
+    </button>
+  </div>
+  <div className="lg:w-1/2 lg:mt-0 flex justify-center">
+    <img src={hero} alt="Hero" className="w-full max-w-lg object-contain" />
+  </div>
+</div>
 
       <Services />
 
